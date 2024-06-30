@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/StylesPhone.css" media="(max-width: 595px)">
+    <link rel="stylesheet" href="css/StylesComputer.css" media="(min-width:596px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalise.css">
+    <title>leaderPos</title>
+    <link rel="shortcut icon" type="image" href="Image/LeaderPosLogo1E88E5.png">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/f420eaca9f.js" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <!-- start setting-box -->
+
+    <!-- toggle for phone -->
+    <div class="toggle-container">
+        <span class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </div>
+    <!-- toggle for phone -->
+    <div class="setting-box">
+        <div class="setting-boxContainer">
+            <div class="spin-container">
+                <i class="fa fa-gear "></i>
+            </div>
+            <h4>Colors</h4>
+            <ul>
+                <li style=" background-color:  #009688;" data-color="#009688"></li>
+                <li style=" background-color: #1E88E5;" data-color="#1E88E5"></li>
+                <li style=" background-color: #e91e63;" data-color="#e91e63"></li>
+                <li style=" background-color: #ff5e00;" data-color="#ff5e00"></li>
+                <li style=" background-color: #9400D3;" data-color="#9400D3"></li>
+                <li style=" background-color: #db0101;" data-color="#db0101"></li>
+            </ul>
+            <h4>Background</h4>
+            <div class="background-options">
+                <div><img data-img="01.webp" src="Image/ourSociety/01.webp" alt=""></div>
+                <div><img data-img="02.jpg" src="Image/ourSociety/02.jpg" alt=""></div>
+                <div><img data-img="03.jpg" src="Image/ourSociety/03.jpg" alt=""></div>
+                <div><img data-img="04.jpg" class="active-background" src="Image/ourSociety/04.jpg" alt=""></div>
+            </div>
+            <h4>Disable Navigation bullets</h4>
+            <div class="nav-bullets">
+                <span data-op="yes">Yes</span><span data-op="no" class="active-bullet-option">No</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- end setting-box -->
+
+    <!-- navigation bullets -->
+    <div class="navigation">
+        <ul class="">
+            <li><a href="#l-p">lp</a> <div class="tool-tip">HOME</div></li>
+            <li><a href="#au">au</a><div class="tool-tip">ABOUT US</div></li>
+            <li><a href="#ft">ft</a><div class="tool-tip">FEATURES</div></li>
+            <li><a href="#ot">sk</a><div class="tool-tip">OUR TEAM</div></li>
+            <li><a href="#lg">sk</a><div class="tool-tip">LOG-IN</div></li>
+            <li><a href="#ac">sk</a><div class="tool-tip">ACHEIVMENTS</div></li>
+            <li><a href="#cu">sk</a><div class="tool-tip">CONTACT-US</div></li>
+        </ul>
+    </div>
+    <!-- navigation bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page" id="l-p">
+        <div class="overlay"></div>
+        <header>
+            <div class="logo"><img src="Image/LeaderPosLogo1E88E5.png" alt=""></div>
+            <div class="search">
+                <ion-icon name="search-outline"></ion-icon>
+                <div class="input"><ion-icon class="del" name="close-circle-outline"></ion-icon>
+                    <input type="text" name="" placeholder="Looking For Something ?.." >
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Contact-us</a></li>
+                </ul>
+            </nav>
+            <!-- navigation bar for phone -->
+            <div class="navigation-phone" >
+                <ul>
+                    <li class="list active-indicator">
+                        <a href="#l-p">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="text">Home</span>
+                        </a>
+                    </li>
+                    <li class="list" >
+                        <a href="#ft">
+                            <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                            <span class="text">Features</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#ot">
+                            <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                            <span class="text">Team</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#lg">
+                            <span class="icon"><ion-icon name="images-outline"></ion-icon></span>
+                            <span class="text">Join-us</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#cu">
+                            <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                            <span class="text">Contact-us</span>
+                        </a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+            <!-- navigation bar for phone -->
+        </header>
+        <div class="introduction-text">
+            <h1>Leader <span>pos</span></h1>
+            <p>LeaderPos is a company specializing in hardware trading
+                computer and software engineering, creation of websites, development of
+                mobile applications and point-of-sale </p>
+                <div class="btn">
+                    <a href="#" class="log-inL">Log In</a> <a href="#">Sign Up</a>
+                </div>
+                <div class="social-media">
+                    <a class="fb" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a class="ig" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a class="gh" href="#"><ion-icon name="logo-github"></ion-icon></a>
+                    <a class="tw" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+        </div>
+    </div>
+    <!-- Start Landing Page -->
+
+    <!-- start about us -->
+    <div class="about-us" id="au">
+        <img src="Image/about-us/01.png" alt="">
+        <div class="text">
+            <h3>About Us</h3>
+            <p>
+                Since its creation, LeaderPos designs, realizes and maintains IT services
+tailored. This work is carried out by a certified human resource in engineering
+computer science. The work is based on a set of activities, from design to implementation
+implemented, to carry out an IT service, to control its proper functioning and
+its suitability as needed. It also means designing, developing and maintaining
+applications intended for the general public such as Web sites or portals,
+e-commerce, etc
+            </p>
+        </div>
+    </div>
+    <!-- start about us -->
+
+    <!-- start features -->
+    <div class="features-section" id="ft">
+        <div class="left">
+            <div class="first"><div class="img-container"><img src="image/features/01.png" alt=""></div><h4>Marketting</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            <div class="second"><div class="img-container"><img src="image/features/02.png" alt=""></div><h4>web development</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            <div class="third"><div class="img-container"><img src="image/features/03.png" alt=""></div><h4>Artificial intelligence</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></div>
+        </div>
+        <div class="center">
+            <div class="first"><div class="img-container"><img src="image/features/04.png" alt=""></div><h4>Software engineering</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p></div>
+            <div class="second"><div class="img-container"><img src="image/features/05.png" alt=""></div><h4>Game development</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p></div>
+            <div class="third"><div class="img-container"><img src="image/features/06.png" alt=""></div><h4>Internet of things</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p></div>
+        </div>
+        <div class="right">
+            <div class="first"><div class="img-container"><img src="image/features/07.png" alt=""></div><h4>Business Intelligence</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p></div>
+            <div class="second"><div class="img-container"><img src="image/features/08.png" alt=""></div><h4>Network System Engineering</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p></div>
+            <div class="third"><div class="img-container"><img src="image/features/09.png" alt=""></div><h4>Compute System engineering</h4><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p></div>
+        </div>
+    </div>
+    <!-- start features -->
+    <!-- Our Team -->
+    <div class="timeline" id="ot">
+        <div class="timeline-content">
+            <div class="job">director</div>
+            <div class="left">
+                <div class="content">
+                    <h3>adel frigui</h3>
+                    <p>Works At : Teacher at Ministry of Education , Software Engineer<br>Lives in : Monastir Governorate, Tunisia<br>Linkedin Account: <a href="https://www.linkedin.com/in/adel-frigui-74794a35/">Frigui Adel</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="job">secreatary</div>
+            <div class="right">
+                <div class="content">
+                    <h3>imen ben mansour</h3>
+                    <p>Works At : Project Manager<br>Lives in :Tunisia<br>Linkedin Account: <a href="https://www.linkedin.com/in/ben-mansour-imen-9ba5b126/?originalSubdomain=tn">Imen Ben Mansour</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+                <div class="content">
+                    <h3>frigui nadia</h3>
+                    <p>Works At : Marketting Manager<br>Lives in : Monastir Governorate, Tunisia<br>Linkedin Account: Not Available</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="job">services</div>
+            <div class="left">
+                <div class="content">
+                    <h3>jellad tarek</h3>
+                    <p>Works At : Master Technologist at ISET MAHDIA , Software Engineer<br>Lives in : Mahdia Governorate, Tunisia<br>Linkedin Account: <a href="https://www.linkedin.com/in/jelladtarek/?originalSubdomain=tn">Jellad Tarek</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="left">
+                <div class="content">
+                    <h3>chahir saadaoui</h3>
+                    <p>Works At : manager at S.I.PRO<br>Lives in :Safaqis al-Madeenah, Sfax Governorate, Tunisia <br>Linkedin Account: <a href="https://www.linkedin.com/in/chahir-saadaoui-125565b9/?originalSubdomain=tn#experience-section">Chahir Saadaoui</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="left">
+                <div class="content">
+                    <h3>jlassi nadia</h3>
+                    <p>Works At : Senior Technician<br>Lives in : Sfax Governorate, Tunisia <br>Linkedin Account: <a href="linkedin.com/in/sadak-frigui-0203a01a">Jlassi Nadia</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Team -->
+
+    <!-- sign up section  -->
+    <div class="sign-up__log-in" id="lg" >
+        <form action="php/sign-up.php" method="POST" class="sign-up off-sign-up">
+            <div class="text-box">
+                <h3>Create Your
+                    <span>Account</span>
+                    And join Our community
+                </h3>
+            </div>
+            <div class="wrapper">
+                <div class="first-container">
+                    <div class="name-container">
+                        <div class="input-txt-div">
+                            <input type="text" name="t1" placeholder="k" autocomplete="off" id="userName"><label for="userName">User Name</label>
+                        </div>
+                        <div class="input-txt-div">
+                            <input type="text" name="t2" placeholder="k" autocomplete="off" id="fName"><label for="fName">Family Name</label>
+                        </div>
+                    </div>
+                    <div class="input-txt-div">
+                        <input type="email" placeholder="k" autocomplete="off" name="t3" id="Email"><label for="Email">Email</label>
+                    </div>
+                        <div class="input-txt-div">
+                        <input type="password" placeholder="k" autocomplete="off" name="t4" class="txt" id="mdp"><label for="mdp">password : </label>
+                    </div>
+                </div>
+                <div class="second-container">
+                    <div class="option-container">
+                        <div class="option">
+                            <input type="radio" value="M" name="r1" id="opt1">
+                            <label for="opt1">Male </label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" value="F" name="r1" id="opt2">
+                            <label for="opt2">Female </label>
+                        </div>
+                    </div>
+                        <div class="input-txt-div">
+                            <input type="text" placeholder="k" name="t5" autocomplete="off" class="txt" id="spec"><label for="spec">your speciality : </label>
+                        </div>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Create Your Account">
+            </div>
+            <div class="change-box">
+                <p>Already Have An Account? <span class="log">sign-in</span></p>
+            </div>
+        </form>
+        <form action="" class="log-in active-log-in">
+        <div class="log-in-container">
+            <div class="text-box">
+                <h3>Log In With Your 
+                    <span>Account</span>
+                    And Get unlimited features
+                </h3>
+            </div>
+            <div class="input-txt-div">
+            <input type="email" name="Email" placeholder="k" autocomplete="off" id="email"><label for="email">Email</label>
+            </div>
+            <div class="input-txt-div">
+            <input type="password" name="password" placeholder="k" autocomplete="off" id="pw"><label for="pw">Password</label>
+            </div>
+            <input type="submit" value="Log In">
+            <div class="change-box">
+                <p>Or Create An Account <span class="create">Here</span></p>
+            </div>
+        </div>
+        </form>
+    </div>
+    <!-- sign up section  -->
+
+    <!-- counter -->
+                                            <!-- the following numbers are imaginary -->
+    <section class="counters" id="ac">
+        <div class="counter-container">
+            <div class="numbers-box">
+                <span data-goal="35">0</span>
+                <h3>professional designers</h3>
+                <div><img src="image/features/09.png"><p>leaderPos has more than 35 designers from whole the world</p></div>
+            </div>
+            <div class="numbers-box">
+                <span data-goal="500">0</span>
+                <h3>done porjects</h3>
+                <div><img src="image/features/01.png"><p>leaderPos hits more than 70 projects</p></div>
+            </div>
+            <div class="numbers-box">
+                <span data-goal="325">0</span>
+                <h3>five stars rate</h3>
+                <div><img src="image/features/08.png"><p>people love learderPos and the most of them give 5/5 for the high quality services</p></div>
+            </div>
+            <div class="numbers-box">
+                <span data-goal="1000">0</span>
+                <h3>registered members</h3>
+                <div><img src="image/features/03.png"><p>leaderPos has more than 2500 lucky registered members</p></div>
+            </div>
+        </div>
+    </section>
+    <!-- counter -->
+
+    <!-- contact us section -->
+    <div class="contact" id="cu">
+        <div class="overlay"></div>
+        <div class="form-container">
+            <h3>Contact Us</h3>
+            <form method="GET" action="php/inbox.php">
+                <div class="leftf">
+                    <input type="text" placeholder="Your Name" name="inbox1" >
+                    <input type="text" placeholder="Your Phone" name="inbox2" >
+                    <input type="email" placeholder="Your Email" name="inbox3" >
+                    <input type="text" placeholder="subject" name="inbox4" >
+                </div>
+                <div class="rightf">
+                    <textarea name="inbox5" placeholder="Your Message" ></textarea>
+                    <button type="submit">Subit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- contact us section -->
+
+    <script src="master.js"></script>
+</body>
+</html>
